@@ -1,0 +1,9 @@
+section{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+}
+article{
+background-color: green;
+border: 1px;
+}
