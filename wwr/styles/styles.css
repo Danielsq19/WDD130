@@ -59,6 +59,7 @@ footer .social img{
 }
 main section img {
 box-sizing: border-box;
+width: 100%;
 }
 /* class selectors */
 .button-box {
@@ -103,9 +104,7 @@ box-sizing: border-box;
     width: 80px;
     padding-top: 10px;
 }
-.rivers-card, .camping-card, .rapids-card{
-    margin: 200px;
-}
+
 .card img{
     border: 10px #3f5426;
     transition: transform .5s;
@@ -130,12 +129,15 @@ grid-row: 2/3;
     grid-row: 2/3;
 }
 .mountains {
-    grid-column: 6/10;
+    grid-column: 2/6;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #3f5426;
     width: 100%;
 }
-
+.home-grid{
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+}
 /* id selectors */
 #content {
 max-width: 1600px;
@@ -176,6 +178,10 @@ font-size: 22px;
     grid-row: 1/2;
     margin-top: 100px;
 }
+#hero-img{
+    width: 100%;
+}
+
 
 
 @media screen and (max-width: 900px) {
