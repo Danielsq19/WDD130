@@ -138,6 +138,9 @@ grid-row: 2/3;
 display: grid;
 grid-template-columns: repeat(10, 1fr);
 }
+.main-blog{
+    padding: 30px;
+}
 /* id selectors */
 #content {
 max-width: 1600px;
