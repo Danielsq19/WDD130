@@ -61,6 +61,9 @@ main section img {
 box-sizing: border-box;
 width: 100%;
 }
+section{
+    margin-top: 60px;
+}
 /* class selectors */
 .button-box {
     text-align: center;
@@ -139,7 +142,18 @@ display: grid;
 grid-template-columns: repeat(10, 1fr);
 }
 .main-blog{
-    padding: 30px;
+    padding: 100px;
+}
+.sheep-img{
+   float: right;
+   margin-left: 30px;
+}
+.booking-container{
+    display:flex;
+    gap:30px;
+}
+.booking-container p {
+    flex: 1;
 }
 /* id selectors */
 #content {
