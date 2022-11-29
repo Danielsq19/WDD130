@@ -1,11 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Raleway:wght@300&display=swap');
-/* html selectors /*
+ /* html selectors */
+ header {
+    background-color: white;
+    grid-template-columns: 150px auto;
+}
+ nav a {
+    text-align: center;
+    color: #8DCAFF;; 
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color:#FFE284; ;
+    color: black 
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+}
+
+footer {
+    background-color: #FFE284;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* class selectors */
 
 
 
-/* class selectors /*
 
-
-
-
-/* id selectors /*
+/* id selectors */
+#hero-img{
+width: 100%;
+}
