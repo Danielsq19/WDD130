@@ -20,8 +20,6 @@ nav {
 }
 body {
     background-color: #8DCAFF;
-    margin: 10;
-    padding: 10;
 }
 h1{
     margin:0;
@@ -92,8 +90,32 @@ footer a {
     grid-column: 2/3;
     grid-row: 4/5;
 }
+.landmain,.watermain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding:30px 60px;
+    gap:60px;
+}
+.landmain section, .watermain section{
+    display: grid;
+    justify-items: center;
 
-
+}
+.landmain h2, .watermain h2{
+    margin: 0;
+    margin-top: 30px;
+    color: black;
+    font-family: "Amarante";
+    font-size: 1em;
+    background-color: unset;
+    text-align: center; 
+}
+.landmain img, .watermain img{
+    width:400px;
+    height:300px;
+    object-fit: cover;
+}
 /* id selectors */
 #hero-img{
     width: 100%;    
